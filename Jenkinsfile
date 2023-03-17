@@ -2,9 +2,7 @@ pipeline {
   
    agent any
   
- tools {
-        nodejs 'node 7'
-    }
+  tools {nodejs "nodejs"}
    stages {
    
      stage('Install Dependencies') { 
